@@ -1654,122 +1654,7 @@ const flightEmailHtml = `
                 </td>
               </tr>
             </table>
-            <table
-              cellpadding="0"
-              cellspacing="0"
-              class="es-content"
-              align="center"
-              role="none"
-              style="
-                mso-table-lspace: 0pt;
-                mso-table-rspace: 0pt;
-                border-collapse: collapse;
-                border-spacing: 0px;
-                table-layout: fixed !important;
-                width: 100%;
-              "
-            >
-              <tr>
-                <td align="center" style="padding: 0; margin: 0">
-                  <table
-                    class="es-content-body"
-                    align="center"
-                    cellpadding="0"
-                    cellspacing="0"
-                    style="
-                      mso-table-lspace: 0pt;
-                      mso-table-rspace: 0pt;
-                      border-collapse: collapse;
-                      border-spacing: 0px;
-                      background-color: transparent;
-                      width: 560px;
-                    "
-                    role="none"
-                    bgcolor="#ffffff"
-                  >
-                    <tr>
-                      <td
-                        align="left"
-                        style="
-                          margin: 0;
-                          padding-bottom: 20px;
-                          padding-left: 20px;
-                          padding-right: 20px;
-                          padding-top: 30px;
-                        "
-                      >
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          width="100%"
-                          role="none"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                          "
-                        >
-                          <tr>
-                            <td
-                              align="center"
-                              valign="top"
-                              style="padding: 0; margin: 0; width: 520px"
-                            >
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                role="presentation"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: collapse;
-                                  border-spacing: 0px;
-                                "
-                              >
-                                <tr>
-                                  <td
-                                    align="left"
-                                    style="padding: 0; margin: 0"
-                                  >
-                                    <h2
-                                      style="
-                                        margin: 0;
-                                        line-height: 34px;
-                                        mso-line-height-rule: exactly;
-                                        font-family: arial, 'helvetica neue',
-                                          helvetica, sans-serif;
-                                        font-size: 28px;
-                                        font-style: normal;
-                                        font-weight: bold;
-                                        color: #ffffff;
-                                      "
-                                    >
-                                      Booking from
-                                      <span
-                                        style="
-                                          background-color: #ffffff;
-                                          color: #f76b0a;
-                                          border-radius: 1rem;
-                                          padding-left: 1rem;
-                                          padding-right: 1rem;
-                                        "
-                                        >{{.AirportName}}</span
-                                      >
-                                    </h2>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
+         
             <table
               cellpadding="0"
               cellspacing="0"
@@ -3257,7 +3142,7 @@ const flightEmailHtml = `
                                         color: #ffffff;
                                       "
                                     >
-                                      Booking details
+                                      Customer details
                                     </h2>
                                   </td>
                                 </tr>
@@ -3278,214 +3163,7 @@ const flightEmailHtml = `
                           padding-right: 20px;
                         "
                       >
-                        <!--[if mso]><table style="width:520px" cellpadding="0" cellspacing="0"><tr>
-<td style="width:253px" valign="top"><![endif]-->
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          class="es-left"
-                          align="left"
-                          role="none"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                            float: left;
-                          "
-                        >
-                          <tr>
-                            <td
-                              class="es-m-p20b"
-                              align="left"
-                              style="padding: 0; margin: 0; width: 253px"
-                            >
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                bgcolor="#41b9ef"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: separate;
-                                  border-spacing: 0px;
-                                  background-color: #41b9ef;
-                                  border-radius: 10px;
-                                "
-                                role="presentation"
-                              >
-                                <tr>
-                                  <td
-                                    align="center"
-                                    style="
-                                      padding: 0;
-                                      margin: 0;
-                                      font-size: 0px;
-                                    "
-                                  >
-                                    <a
-                                      target="_blank"
-                                      href="https://traveloment.com/"
-                                      style="
-                                        -webkit-text-size-adjust: none;
-                                        -ms-text-size-adjust: none;
-                                        mso-line-height-rule: exactly;
-                                        text-decoration: none;
-                                        color: #ffffff;
-                                        font-size: 16px;
-                                      "
-                                      ><img
-                                        class="adapt-img"
-                                        src="https://fifyhaq.stripocdn.email/content/guids/CABINET_6369f7e833d10e63cc6e7964ca64418d/images/18.png"
-                                        alt
-                                        style="
-                                          display: block;
-                                          border: 0;
-                                          outline: none;
-                                          text-decoration: none;
-                                          -ms-interpolation-mode: bicubic;
-                                          border-radius: 10px;
-                                        "
-                                        width="253"
-                                        height="190"
-                                    /></a>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                        <!--[if mso]></td><td style="width:15px"></td><td style="width:252px" valign="top"><![endif]-->
-                        <table
-                          cellpadding="0"
-                          cellspacing="0"
-                          class="es-right"
-                          align="right"
-                          role="none"
-                          style="
-                            mso-table-lspace: 0pt;
-                            mso-table-rspace: 0pt;
-                            border-collapse: collapse;
-                            border-spacing: 0px;
-                            float: right;
-                          "
-                        >
-                          <tr>
-                            <td
-                              align="left"
-                              style="padding: 0; margin: 0; width: 252px"
-                            >
-                              <table
-                                cellpadding="0"
-                                cellspacing="0"
-                                width="100%"
-                                role="presentation"
-                                style="
-                                  mso-table-lspace: 0pt;
-                                  mso-table-rspace: 0pt;
-                                  border-collapse: collapse;
-                                  border-spacing: 0px;
-                                "
-                              >
-                                <tr>
-                                  <td
-                                    align="left"
-                                    class="es-m-p10t"
-                                    style="
-                                      padding: 0;
-                                      margin: 0;
-                                      padding-bottom: 10px;
-                                      padding-top: 30px;
-                                    "
-                                  >
-                                    <h3
-                                      style="
-                                        margin: 0;
-                                        line-height: 24px;
-                                        mso-line-height-rule: exactly;
-                                        font-family: arial, 'helvetica neue',
-                                          helvetica, sans-serif;
-                                        font-size: 20px;
-                                        font-style: normal;
-                                        font-weight: bold;
-                                        color: #ffffff;
-                                      "
-                                    >
-                                      {{.TripPickupLocation}}&nbsp;— {{.TripDropofLocation}}
-                                    </h3>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td
-                                    align="left"
-                                    class="es-m-p20r"
-                                    style="
-                                      padding: 0;
-                                      margin: 0;
-                                      padding-top: 10px;
-                                      padding-bottom: 10px;
-                                      padding-right: 10px;
-                                    "
-                                  >
-                                    <p
-                                      style="
-                                        margin: 0;
-                                        -webkit-text-size-adjust: none;
-                                        -ms-text-size-adjust: none;
-                                        mso-line-height-rule: exactly;
-                                        font-family: 'trebuchet ms',
-                                          'lucida grande', 'lucida sans unicode',
-                                          'lucida sans', tahoma, sans-serif;
-                                        line-height: 19px;
-                                        color: #ffffff;
-                                        font-size: 16px;
-                                      "
-                                    >
-                                      {{.TripType}}
-                                    </p>
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td
-                                    align="left"
-                                    class="es-m-p20r"
-                                    style="
-                                      padding: 0;
-                                      margin: 0;
-                                      padding-top: 10px;
-                                      padding-bottom: 10px;
-                                      padding-right: 10px;
-                                    "
-                                  >
-                                    <h3
-                                      style="
-                                        margin: 0;
-                                        line-height: 24px;
-                                        mso-line-height-rule: exactly;
-                                        font-family: arial, 'helvetica neue',
-                                          helvetica, sans-serif;
-                                        font-size: 20px;
-                                        font-style: normal;
-                                        font-weight: bold;
-                                        color: #f76b0a;
-                                      "
-                                    >
-                                      <span
-                                        style="
-                                          background-color: #ffffff;
-                                          border-radius: 10px;
-                                        "
-                                        >&nbsp;Booking No. {{.BookingNo}}&nbsp;</span
-                                      >
-                                    </h3>
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                        </table>
-                        <!--[if mso]></td></tr></table><![endif]-->
+               
                       </td>
                     </tr>
                     <tr>
@@ -4593,7 +4271,6 @@ const flightEmailHtml = `
 `
 
 const hotelEmailHtml = `
-
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="und" style="font-family:&apos;trebuchet ms&apos;, &apos;lucida grande&apos;, &apos;lucida sans unicode&apos;, &apos;lucida sans&apos;, tahoma, sans-serif">
 
 <head>
@@ -5304,39 +4981,7 @@ const hotelEmailHtml = `
                                                                                         <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:21px;color:#FFFFFF;font-size:14px">Address</p>
                                                                                     </td>
                                                                                     <td align="right" width="50%" valign="middle" style="Margin:0;;padding-left:20px;padding-right:20px">
-                                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:21px;color:#FFFFFF;font-size:14px">J{{.HotelAddress}}</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td style="padding:0;Margin:0" class="esd-text" align="left">
-                                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" class=" cke_show_border">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="left" width="50%" valign="middle" style="Margin:0;padding-top:5px;padding-bottom:5px;padding-left:20px;padding-right:20px">
-                                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:21px;color:#FFFFFF;font-size:14px">Phone:</p>
-                                                                                    </td>
-                                                                                    <td align="right" width="50%" valign="middle" style="Margin:0;padding-top:5px;padding-bottom:5px;padding-left:20px;padding-right:20px">
-                                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:21px;color:#FFFFFF;font-size:14px">{{.HotelPhone}}</p>
-                                                                                    </td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td style="padding:0;Margin:0" class="esd-text" align="left">
-                                                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="mso-table-lspace:0pt;mso-table-rspace:0pt;border-collapse:collapse;border-spacing:0px" class=" cke_show_border">
-                                                                            <tbody>
-                                                                                <tr>
-                                                                                    <td align="left" width="50%" valign="middle" style="Margin:0;padding-left:20px;padding-right:20px">
-                                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:21px;color:#FFFFFF;font-size:14px">Email:&nbsp;</p>
-                                                                                    </td>
-                                                                                    <td align="right" width="50%" valign="middle" style="Margin:0;padding-left:20px;padding-right:20px">
-                                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:27px;color:#FFFFFF;font-size:18px">{{.HotelEmail}}</p>
+                                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:21px;color:#FFFFFF;font-size:14px">{{.HotelAddress}}</p>
                                                                                     </td>
                                                                                 </tr>
                                                                             </tbody>
@@ -5878,7 +5523,8 @@ const hotelEmailHtml = `
                                                             <tbody>
                                                                 <tr>
                                                                     <td align="center" style="padding:0;Margin:0;padding-top:10px;padding-bottom:10px" class="esd-text">
-                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:18px;color:#FFFFFF;font-size:12px">{{.CancelPolicy}}.</p>
+                                                                        <p style="Margin:0;-webkit-text-size-adjust:none;-ms-text-size-adjust:none;mso-line-height-rule:exactly;font-family:'trebuchet ms', 'lucida grande', 'lucida sans unicode', 'lucida sans', tahoma, sans-serif;line-height:18px;color:#FFFFFF;font-size:12px">You are receiving this email because you have visited our site or asked us about the regular newsletter. Make sure our messages get to your Inbox (and not your bulk or junk folders).
+                                                                            Privacy police | Unsubscribe</p>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>
